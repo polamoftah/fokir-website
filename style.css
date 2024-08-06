@@ -1,0 +1,414 @@
+/* shared */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+ 
+   
+}
+/* section 1 */
+.home{
+    display: flex;
+   
+    height: 100vh;
+background-image: url(../images/hero\ img.jpg);
+background-size:cover;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#a1{
+    color: rgb(255, 48, 91);
+}
+.navbar a:hover{
+color: rgb(255, 48, 91);
+
+}
+.navbar{
+ background-color: rgba(0, 0, 0, 0.2);
+ 
+    padding: 20px;
+     position: fixed;
+    left: 0;
+    top: 0;
+    right: 0; 
+  
+}
+.menue{
+    margin-right: 340px;
+}
+.logo{
+    color: rgb(255, 48, 91);
+    font-size: 30px;
+    margin-left: 300px;
+}
+li{
+    padding: 10px;
+ 
+}
+a{
+    text-decoration: none;
+    
+}
+.navbar a{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.home .layout{
+    background-color:rgba(0, 0, 0, 0.726);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home .content{
+   
+padding: 20px;
+   
+  
+
+}
+.home .content h1{
+    color: rgb(255, 48, 91);
+    font-size: 38px;
+    font-weight: 700;
+}
+#p1{
+    color: white;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.home .content p{
+    color: aliceblue;
+}
+@media (min-width:768px) {
+.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+    ul{
+        display: flex;
+    }
+}
+/* section2 */
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+.section2 img{
+    margin-right: 700px;
+ 
+}
+.layout2{
+   background-color:rgba(0, 0, 0);
+  height: auto;
+width: 380px;
+margin-right
+: 500px;
+margin-left: 400px;
+
+}
+
+.layout2 i{
+    color: #fff;
+margin-left: 20px;
+}
+.co2{
+    width: 50%;
+    margin-right: 300px;
+    float: left;
+}
+.co2 button{
+    width: 120px;
+    height: 40px;
+    background-color:  rgb(255, 48, 91);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+/* section 3 */
+.section3
+{
+    width: 100%;
+    height: 300px;
+    background-color :rgb(241, 241, 241);
+}
+.content3{
+    text-align: center;
+    padding-bottom: 40px;
+
+   
+}
+
+.content3 p{
+    color: rgb(255, 48, 91);
+}
+.slide1{
+    float:right;
+    width: 20%;
+    margin: 20px;
+    
+}
+.slide1:hover{
+    transform: translatey(-10px);
+    background-color: white;
+
+}
+
+.slide1 i{
+    margin-bottom: 10px;
+    margin-left: 60px;
+    color: rgb(255, 48, 91);
+}
+/* section4 */
+.content4{
+    text-align: center;
+   
+}
+.content4 span{
+    padding: 20px;
+    text-align: center;
+   
+}
+.content4 p{
+    color: rgb(255, 48, 91);
+    margin-bottom: 20px;
+}
+.content4 h2{
+    margin-top: 10px;
+}
+.content4 #demo{
+    color: rgb(255, 48, 91);
+}
+
+
+.section4 img{
+    width: 20%;
+    float: right;
+    margin-right: 150px;
+   margin-top: 40px;
+    margin-bottom: 20px;
+    
+
+    
+}
+.clr{
+    clear: both;
+}
+/* section 5 */
+.section5{
+    display: flex;
+    justify-content:center;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+    background-color: rgba(85, 85, 85, 0.274);
+    
+}
+.content5 i{
+    color: rgb(255, 48, 91);
+    padding-bottom: 10px;
+   margin-left: 30px;
+    
+}
+.section5 .de{
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.section8 {
+    margin-top: 100px;
+    height: 500px;
+    text-align: center; /* Centers content inside this container */
+}
+.section8 p{
+    margin-bottom: 20px;
+    color:  rgb(255, 48, 91);
+} 
+
+.content8 {
+    display: inline-block; /* Makes the div shrink to the content size */
+    text-align: center;    /* Centers the text inside the content8 div */
+}
+#d{
+    width: 450px;
+    height: 30px;
+    margin-left: 10px;
+}
+#e{
+    width: 450px;
+    height: 30px;
+}
+#su{
+    margin-top: 20px;
+    width: 900px;
+    height: 30px;  
+}
+.text{
+    margin-top: 20px;
+    width: 900px;
+    height: 60px;
+
+}
+#bu{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+   
+   background-color:  rgb(255, 48, 91);
+   color: aliceblue;
+   margin-right: 700px
+}
+
+
+.blog-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color :rgb(241, 241, 241);
+}
+
+.blog-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background-color: #ff5e5e;
+    margin: 0 auto 40px auto;
+}
+
+.section7 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.content7 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: left;
+ 
+   
+}
+
+.content7 img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+.content7 p {
+    padding: 20px;
+    margin: 0;
+}
+
+.content7 p span {
+    color: #999;
+    font-size: 0.9em;
+}
+
+.content7 p strong {
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: block;
+}
+
+/* section6 */
+.section6{
+display: flex;
+justify-content: center;
+align-items: center; 
+
+height: 500px;
+
+}
+#star{
+    color: gold;
+}
+.content6 span{
+    margin-right:450px ;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.content6 h4{
+    margin-right: 450px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+}
+.h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.h2 p{
+    color:  rgb(255, 48, 91);
+}
+
+.content6 p{
+    padding-top: 10px;
+}
+
+.content6{
+    position: absolute;
+
+    background-color:rgba(128, 128, 128, 0.123);
+    width: 700px;
+    height: 300px;
+    text-align: center;
+}
+.content6 img{
+border-radius: 50px;
+position: absolute;
+left: 0;
+top: 0;
+width: 90px;
+margin-bottom: 20px;
+}
+
+/* section9 */
+.section9{
+    text-align: center;
+    height: 250px;
+    background-color: rgb(51, 51, 51);
+}
+.logos{
+    padding: 20px;
+    color: white
+
+}
+.logos i{
+
+    margin: 10px;
+}
+.section9 span{
+    color:  rgb(255, 48, 91);
+   
+}
+.section9 span:hover{
+    text-decoration:line-through;
+}
+.section9 p{
+    color: aliceblue;
+}
